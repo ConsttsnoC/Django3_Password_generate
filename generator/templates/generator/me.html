@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1>Добро пожаловать!</h1>
+        <br>
+        <h3>Этот сайт создан Гильмановым Константином, в учебных целях!</h3>
+
+        <p class="lead">Но если он вам пригодится в жизни, то я очень буду этому рад, Спасибо!</p>
+    </div>
+</div>
+<div class="content text-center">
+    <form action="{% url 'home' %}">
+        <input type="submit" value="Назад" class="btn btn-primary">
+    </form>
+</div>
